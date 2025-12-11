@@ -4,12 +4,12 @@ run-name: Lab 1 Pytest Tests
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'labs/lab1-github-basics/**'
   pull_request:
     branches:
-      - main
+      - master
     paths:
       - 'labs/lab1-github-basics/**'
 
