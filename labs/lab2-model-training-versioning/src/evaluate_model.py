@@ -11,6 +11,8 @@ if __name__=='__main__':
     parser.add_argument("--timestamp", type=str, required=True, help="Timestamp from GitHub Actions")
     args = parser.parse_args()
     
+    
+    
     # Access the timestamp
     timestamp = args.timestamp
     try:
