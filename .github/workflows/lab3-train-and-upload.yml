@@ -4,12 +4,12 @@ run-name: Lab 3 Train Model and Upload to S3
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'labs/lab3-github-actions-aws-beginner-lab/**'
   pull_request:
     branches:
-      - main
+      - master
     paths:
       - 'labs/lab3-github-actions-aws-beginner-lab/**'
   schedule:
