@@ -4,12 +4,12 @@ run-name: Lab 2 Model Retraining
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - 'labs/lab2-model-training-versioning/**'
   pull_request:
     branches:
-      - main
+      - master
     paths:
       - 'labs/lab2-model-training-versioning/**'
 
